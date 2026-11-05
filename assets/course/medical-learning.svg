@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="430" viewBox="0 0 560 430" fill="none">
+<defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="#cbd9c7" stroke-width=".5"/></pattern><radialGradient id="scan"><stop stop-color="#a0b7a2"/><stop offset=".6" stop-color="#4f6859"/><stop offset="1" stop-color="#293b32"/></radialGradient><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbf5"/><stop offset="1" stop-color="#e5eddf"/></linearGradient></defs>
+<rect width="560" height="430" rx="10" fill="url(#grid)"/>
+<g font-family="Microsoft YaHei, sans-serif"><text x="24" y="33" fill="#658169" font-size="10" letter-spacing="2">IMAGE → FEATURES → CONTEXT</text>
+<rect x="24" y="61" width="225" height="248" rx="10" fill="#f7faf4" stroke="#c3d3bd"/><rect x="40" y="78" width="193" height="193" rx="6" fill="#20372b"/>
+<ellipse cx="136" cy="175" rx="72" ry="83" fill="url(#scan)" stroke="#bacdb8" stroke-width="2"/><path d="M136 97C96 117 103 140 91 156S123 186 102 204S115 242 136 251M136 97C177 116 168 140 182 156S149 186 170 205S158 241 136 251" stroke="#8aab8a" stroke-width="8" opacity=".7"/><path d="M136 116v125" stroke="#31483b" stroke-width="7"/><ellipse cx="159" cy="157" rx="18" ry="14" fill="#b3d0ab" stroke="#e0ebba" stroke-width="2"/>
+<rect x="124" y="127" width="67" height="58" rx="3" stroke="#d0a34e" stroke-width="2" stroke-dasharray="5 4"/><path d="M125 146h65m-65 20h65m-43-37v56m23-56v56" stroke="#d0a34e" opacity=".65"/><text x="41" y="294" font-size="11" fill="#496c50">01 / 合成影像 · 局部邻域</text>
+<path d="M249 153h35m-7-5 7 5-7 5" stroke="#719270" stroke-width="1.5"/>
+<rect x="286" y="61" width="248" height="117" rx="10" fill="url(#card)" stroke="#c3d3bd"/>
+<g stroke="#467b59" stroke-width="1.3"><path d="m308 92 32-14 31 14v45l-31 14-32-14Z" fill="#cee0c3"/><path d="m308 92 32 14 31-14m-31 14v45m-32-29 32 14 31-14m-31-44v28"/><path d="m329 92 32-14 31 14v45l-31 14-32-14Z" fill="#bdd4b3" opacity=".55"/><path d="m350 92 32-14 31 14v45l-31 14-32-14Z" fill="#a8c39d" opacity=".6"/></g>
+<text x="432" y="112" fill="#285c3e" font-size="15">CNN</text><text x="432" y="133" fill="#6d886c" font-size="10">提取局部特征</text>
+<path d="M413 179v29m-5-6 5 6 5-6" stroke="#719270" stroke-width="1.5"/>
+<rect x="286" y="213" width="248" height="117" rx="10" fill="url(#card)" stroke="#c3d3bd"/>
+<g stroke="#5b8c63" opacity=".55"><path d="m315 246 36 40 35-48m-71 8 71-8m-35 48 48 18m-84-58 84 58m-13-66 13 66m-48-18 52-26"/></g><g fill="#3b7e55"><circle cx="315" cy="246" r="6"/><circle cx="351" cy="286" r="7"/><circle cx="386" cy="238" r="6"/><circle cx="399" cy="304" r="6"/><circle cx="403" cy="260" r="5" fill="#b78c3e"/></g>
+<text x="433" y="262" fill="#285c3e" font-size="13">Attention</text><text x="433" y="283" fill="#6d886c" font-size="10">建立全局关联</text>
+<path d="M413 331v32H216m5-5-5 5 5 5" stroke="#719270" stroke-width="1.5"/>
+<rect x="24" y="333" width="225" height="74" rx="9" fill="#1f6144"/><path d="M43 353h30v32H43z" fill="#518a64"/><path d="m49 374 4-13 12-3 3 13-6 8-13-5Z" fill="#d4e7b9"/><text x="88" y="361" fill="#eff6e9" font-size="12">02 / 像素分割</text><text x="88" y="384" fill="#b9d4ac" font-size="10">从特征回到目标区域</text>
+<text x="286" y="402" fill="#698465" font-size="10">教学示意 · 非真实患者影像</text></g></svg>
